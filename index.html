@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </head>
 <body>
 
@@ -43,7 +43,7 @@
     <p>
       Je m'appelle Yanis Gobin, étudiant en cycle ingénieur à l'ESAIP,
       en Informatique et Réseaux.
-      Après un cycle préparatoire préparatoire intégré,
+      Après un cycle préparatoire intégré,
       je me spécialise en cybersécurité, avec un attrait particulier pour tout
       ce qui touche à la sécurisation des réseaux et à la gestion des incidents.
     </p>
@@ -70,7 +70,7 @@
 
   <section id="experiences">
     <h2>Expériences professionnelles</h2>
-    <p class="section-intro">Analyse des compétences développées à travers mes expériences.</p>
+    <p class="section-intro">Analyse des compétences développées à travers mes expériences. Les « Bloc » renvoient aux blocs du référentiel du diplôme d'ingénieur ESAIP, spécialité Informatique et Réseaux (<a href="https://www.francecompetences.fr/recherche/rncp/35568/" target="_blank" rel="noopener">France compétences, RNCP35568</a>).</p>
 
     <article class="experience">
       <div class="experience-head">
@@ -78,53 +78,52 @@
         <span class="lieu">Jimbolia, Roumanie · juin et juillet 2026</span>
       </div>
       <p>
-        Dans le cadre du Corps Européen de Solidarité, j'ai intégré une équipe de 20 volontaires
+        Dans le cadre du Corps Européen de Solidarité (CES), j'ai intégré une équipe de 20 volontaires
         internationaux au sein de l'association GAL Banat Vest. Le projet principal a consisté à
         monter une exposition sur l'histoire de l'usine locale de briques (usine Bohn) et sur la
         ville de Jimbolia.
       </p>
       <ul class="apports">
-        <li>Visites de l'ancienne usine de Kikinda (Serbie) et de la ville de Jimbolia</li>
         <li>Construction en équipe de 17 structures faites main (bois, briques, piliers, un mur) pour reconstituer le procédé de fabrication de l'époque</li>
+        <li>Fabrication de briques selon la méthode traditionnelle</li>
         <li>Manutention et exposition d'œuvres historiques, mise en place et affichage des contenus</li>
+        <li>Visites de l'ancienne usine de Kikinda (Serbie) et de la ville de Jimbolia</li>
         <li>Vie en communauté avec 10 autres volontaires dans un ancien internat</li>
       </ul>
 
       <h4>Compétences développées et mises en œuvre</h4>
       <ul class="apports">
-        <li>Travail en équipe internationale et communication en anglais professionnel au quotidien</li>
+        <li>Travail en équipe internationale</li>
+        <li>Communication en anglais au quotidien</li>
+        <li>Travail manuel (bois, briques) en respectant une échéance</li>
         <li>Autonomie et adaptation dans un contexte culturel différent</li>
-        <li>Gestion d'un projet culturel de bout en bout, dans un délai fixe</li>
-        <li>Travail manuel et polyvalence (construction, montage, logistique)</li>
       </ul>
 
-      <h4>Compétences transversales</h4>
+      <h4>Compétences métiers</h4>
       <ul class="apports">
-        <li>Travail en respectant une deadline</li>
-        <li>Gestion de projet en équipe</li>
-        <li>Rigueur dans la réalisation et la mise en place du projet</li>
+        <li>Communiquer avec son équipe, en anglais<span class="bloc">Bloc 7</span></li>
+        <li>Pratiquer l'anglais en contexte professionnel, une exigence du diplôme (niveau B2)</li>
       </ul>
     </article>
 
     <article class="experience">
       <div class="experience-head">
         <h3>Projet de sécurisation d'un réseau</h3>
-        <span class="lieu">ESAIP, cycle préparatoire</span>
+        <span class="lieu">ESAIP, cycle préparatoire · GNS3</span>
       </div>
       <p>
-        Projet de groupe réalisé en cycle préparatoire sur GNS3 : configuration et sécurisation
-        d'un réseau local et de connexions VPN à distance. Le projet comprenait la création du
-        réseau, la mise en place d'un pare-feu (pfSense), d'un système de détection d'intrusion
-        (IDS Snort) et d'un outil de supervision (Nagios).
+        Projet de groupe réalisé en cycle préparatoire sur GNS3 : construire un réseau local puis le
+        sécuriser, chaque membre de l'équipe prenant en charge une partie de la sécurité (pare-feu
+        pfSense, détection d'intrusion avec Snort, supervision avec Nagios, accès VPN à distance).
       </p>
       <p>
-        J'étais en charge de la création et de la configuration du réseau, ainsi que de la mise
-        en place et de la configuration du pare-feu pfSense.
+        J'ai d'abord construit et configuré le réseau pour que toute l'équipe puisse travailler
+        dessus, puis j'ai mis en place et configuré le pare-feu pfSense.
       </p>
-
       <ul class="apports">
+        <li>Création du réseau sous GNS3, base commune du projet</li>
         <li>Cartographie du réseau</li>
-        <li>Mise en place d'un pare-feu et d'une DMZ</li>
+        <li>Mise en place d'un pare-feu pfSense et d'une DMZ</li>
       </ul>
 
       <h4>Compétences développées et mises en œuvre</h4>
@@ -132,48 +131,52 @@
         <li>Création et configuration d'un réseau</li>
         <li>Segmentation du réseau avec une DMZ</li>
         <li>Mise en place et configuration d'un pare-feu (pfSense)</li>
-        <li>Travail en équipe avec répartition des rôles</li>
+        <li>Fournir une base technique commune dont dépendait le travail des autres membres</li>
+        <li>Travail en équipe avec répartition des parties</li>
       </ul>
 
       <h4>Compétences métiers</h4>
       <ul class="apports">
-        <li>Sécurisation d'une infrastructure réseau</li>
-        <li>Compréhension globale d'une architecture réseau sécurisée</li>
+        <li>Définir l'architecture d'un réseau informatique<span class="bloc">Bloc 1</span></li>
+        <li>Installer et configurer des solutions de sécurisation d'un réseau informatique<span class="bloc">Blocs 2 · 9</span></li>
       </ul>
     </article>
 
     <article class="experience">
       <div class="experience-head">
         <h3>Projet de simulation et contrôle d'une fraiseuse industrielle</h3>
-        <span class="lieu">SeAMK, cycle ingénieur</span>
+        <span class="lieu">SeAMK, Finlande · semestre Erasmus</span>
       </div>
       <p>
-        Projet réalisée en groupe à Seinäjoki lors de mon semestre Erasmus en Finlande :
+        Projet réalisé en groupe à Seinäjoki lors de mon semestre Erasmus en Finlande :
         configuration, simulation et contrôle d'une fraiseuse industrielle à l'aide du
-        logiciel TwinCAT (Beckhoff). Le projet avait pour objectifs : la modélisation graphique
-        des axes et coordonnées de la machine, la configuration manuelle des vitesses 
-        et positions des axes en temps réel, ainsi que l'implémentation d'un système de 
+        logiciel TwinCAT (Beckhoff). Le projet avait pour objectifs la modélisation graphique
+        des axes et coordonnées de la machine, la configuration manuelle des vitesses
+        et positions des axes en temps réel, ainsi que l'implémentation d'un système de
         changement d'outil.
       </p>
       <p>
-        Pour ce projet, j'étais en charge du développement de la logique des axes et moteurs,
-        la gestion des vitesses et positions des axes, ainsi que l'interface graphique (IHM).
+        J'étais en charge de la logique des axes et moteurs, de la gestion des vitesses et
+        positions des axes, ainsi que de l'interface graphique (IHM).
       </p>
-
       <ul class="apports">
-        <li>Développement d'une interface graphique (IHM)</li>
-        <li>Contrôle des axes de mouvement en temps réel</li>
+        <li>Axes fonctionnels en mode automatique et en mode manuel</li>
+        <li>Repère 2D dans l'interface pour visualiser le déplacement du point en temps réel</li>
       </ul>
 
       <h4>Compétences développées et mises en œuvre</h4>
       <ul class="apports">
+        <li>Programmation d'automates industriels (TwinCAT)</li>
+        <li>Développement d'une interface homme-machine (IHM)</li>
+        <li>Vérification du fonctionnement des axes dans deux modes d'utilisation</li>
         <li>Travail en équipe internationale</li>
-        <li>Programmation d'automates industriels</li>
       </ul>
 
       <h4>Compétences métiers</h4>
       <ul class="apports">
-        <li>Compréhension du fonctionnement d'outils de chaine de production</li>
+        <li>Développer une solution logicielle qui respecte le cahier des charges<span class="bloc">Bloc 4</span></li>
+        <li>Vérifier et valider une solution logicielle<span class="bloc">Bloc 4</span></li>
+        <li>Compréhension du fonctionnement d'un outil de chaîne de production</li>
       </ul>
     </article>
   </section>
@@ -185,59 +188,77 @@
     <article class="experience">
       <div class="experience-head">
         <h3>Secrétaire à Innov'Lab</h3>
-        <span class="lieu">ESAIP, Saint-Barthélemy-d'Anjou ·</span>
+        <span class="lieu">ESAIP, Saint-Barthélemy-d'Anjou · 2025 – en cours</span>
       </div>
       <p>
         Innov'Lab est une association étudiante de l'ESAIP qui accompagne les élèves dans leurs
-        projets. Je m'y suis engagé comme vice-secrétaire (2025-2026) avant de
-        prendre le poste de secrétaire, et membre actif de l'association.
+        projets. Je me suis engagé comme vice-secrétaire (2025-2026), puis j'ai pris le poste de
+        secrétaire cette année.
       </p>
       <ul class="apports">
-        <li>Développement d'un site web pour les blogs Erasmus des élèves de l'école : gestion de la FAQ, réponse aux questions des étudiants et professeurs, mise en forme des pages globales</li>
-        <li>Reprise et remise en état d'anciens projets de l'association : bornes d'arcade (peinture, remontage) mises à disposition des élèves du campus</li>
+        <li>Remise en état d'une borne d'arcade mise à disposition des élèves du campus : démontage, ponçage, peinture et remontage (la reconfiguration n'était pas ma partie)</li>
+        <li>Création d'un site WordPress pour les blogs Erasmus des élèves : j'ai surtout pris en charge l'esthétique et la mise en forme des pages, ainsi que la FAQ et les réponses aux questions des étudiants et professeurs</li>
         <li>Projets étudiants de home-lab sur un serveur privé, et de projets low-tech</li>
       </ul>
 
       <h4>Compétences développées et mises en œuvre</h4>
       <ul class="apports">
         <li>Suivi des projets et gestion des documents administratifs</li>
-        <li>Développement web et support utilisateur (FAQ, accompagnement des étudiants et professeurs)</li>
+        <li>Design web (WordPress) et support utilisateur (FAQ)</li>
+        <li>Travail manuel de remise en état (ponçage, peinture, remontage)</li>
       </ul>
 
-      <h4>Compétences transversales</h4>
+      <h4>Compétences métiers</h4>
       <ul class="apports">
-        <li>Travail en équipe au sein d'une association</li>
-        <li>Organisation, rigueur dans le suivi administratif</li>
-        <li>Communication (étudiants, professeurs, membres)</li>
+        <li>Communiquer avec son équipe, à l'oral et à l'écrit<span class="bloc">Bloc 7</span></li>
+        <li>Rédiger des comptes-rendus et des dossiers liés aux projets<span class="bloc">Bloc 6</span></li>
+        <li>Communiquer avec les utilisateurs (étudiants, professeurs)<span class="bloc">Bloc 6</span></li>
       </ul>
 
       <a class="projet-link" href="https://www.linkedin.com/company/innov-lab-esaip/" target="_blank" rel="noopener">Voir Innov'Lab sur LinkedIn</a>
     </article>
 
     <p class="note">
-      Mon <a href="#experiences"> volontariat européen en Roumanie </a> constitue également un engagement bénévole.
+      Mon <a href="#experiences">volontariat européen en Roumanie</a> constitue également un engagement bénévole.
     </p>
   </section>
 
   <section id="competences">
     <h2>Compétences</h2>
+    <p class="section-intro">Les outils et technologies que j'utilise, et où je m'en suis servi.</p>
     <div class="skills-grid">
       <div class="skill-group">
         <h3>Développement</h3>
         <ul class="tags">
-          <li>Python</li><li>C</li><li>Java</li><li>JavaScript</li><li>SQL</li>
+          <li>Python<span class="ctx">Machine Learning, notebooks Colab</span></li>
+          <li>Java<span class="ctx">Accès aux données (JDBC, JPA)</span></li>
+          <li>SQL<span class="ctx">Accès aux données</span></li>
+          <li>MATLAB<span class="ctx">Traitement d'image</span></li>
+          <li>C</li>
+          <li>JavaScript</li>
         </ul>
       </div>
       <div class="skill-group">
         <h3>Réseaux &amp; sécurité</h3>
         <ul class="tags">
-          <li>TCP/IP</li><li>Routage &amp; VLAN</li><li>Linux</li><li>Sécurité réseau</li>
+          <li>pfSense<span class="ctx">Projet de sécurisation réseau</span></li>
+          <li>Active Directory<span class="ctx">TP infrastructure</span></li>
+          <li>TCP/IP</li>
+          <li>Routage &amp; VLAN</li>
+          <li>Linux</li>
+          <li>Sécurité réseau</li>
         </ul>
       </div>
       <div class="skill-group">
         <h3>Outils</h3>
         <ul class="tags">
-          <li>Git</li><li>Wireshark</li><li>Packet Tracer</li><li>Docker</li>
+          <li>GNS3<span class="ctx">Projet de sécurisation réseau</span></li>
+          <li>Packet Tracer<span class="ctx">Cours de réseau</span></li>
+          <li>TwinCAT<span class="ctx">Projet fraiseuse, SeAMK</span></li>
+          <li>WordPress<span class="ctx">Innov'Lab</span></li>
+          <li>Git<span class="ctx">Module DevOps</span></li>
+          <li>Wireshark</li>
+          <li>Docker</li>
         </ul>
       </div>
     </div>
